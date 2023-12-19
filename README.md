@@ -47,15 +47,11 @@
   </ol>
 
   <pre><code>git clone git@github.com:SaminRazeghi/Insulators_object_detection.git
-cd insulator-detection</code></pre>
+cd Insulators_object_detection</code></pre>
 
   <ol start="2">
-    <li><strong>Run Inference:</strong></li>
   </ol>
 
-  <pre><code>python inference.py /path/to/test/image.jpg</code></pre>
-
-  <p>Replace <code>/path/to/test/image.jpg</code> with the path to the image you want to test.</p>
 
   <h2 id="dataset-and-annotations">Dataset and Annotations</h2>
 
@@ -63,15 +59,11 @@ cd insulator-detection</code></pre>
 
   <h2 id="training">Training</h2>
 
-  <p>The training script (<code>train.py</code>) is used to train the Faster R-CNN model. The script reads images and annotations, preprocesses the data, and trains the model. Adjust hyperparameters and model configurations as needed.</p>
+  <p>The training script is used to train the Faster R-CNN model. The script reads images and annotations, preprocesses the data, and trains the model. Adjust hyperparameters and model configurations as needed.</p>
 
-  <pre><code>python train.py</code></pre>
+
 
   <h2 id="inference">Inference</h2>
-
-  <p>To perform inference on a test image, use the <code>inference.py</code> script. Provide the path to the test image as an argument:</p>
-
-  <pre><code>python inference.py /path/to/test/image.jpg</code></pre>
 
   <p>The script will display the test image with bounding boxes around detected insulators.</p>
 
